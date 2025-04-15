@@ -21,12 +21,12 @@
     <parent>
         <groupId>org.apache.shardingsphere</groupId>
         <artifactId>shardingsphere-plugin-kernel</artifactId>
-        <version>5.5.3-SNAPSHOT</version>
+        <version>5.5.1</version>
     </parent>
     <artifactId>shardingsphere-plugin-kernel-sql-translator</artifactId>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
-    
+
     <modules>
         <module>jooq</module>
     </modules>

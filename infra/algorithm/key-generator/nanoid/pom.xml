@@ -4,16 +4,16 @@
     <parent>
         <groupId>org.apache.shardingsphere</groupId>
         <artifactId>shardingsphere-plugin-infra-algorithm-key-generator</artifactId>
-        <version>5.5.3-SNAPSHOT</version>
+        <version>5.5.1</version>
     </parent>
-    
+
     <artifactId>shardingsphere-plugin-infra-algorithm-key-generator-nanoid</artifactId>
     <name>${project.artifactId}</name>
-    
+
     <properties>
         <jnanoid.version>2.0.0</jnanoid.version>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.apache.shardingsphere</groupId>

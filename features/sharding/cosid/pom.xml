@@ -21,15 +21,15 @@
     <parent>
         <groupId>org.apache.shardingsphere</groupId>
         <artifactId>shardingsphere-plugin-features-sharding</artifactId>
-        <version>5.5.3-SNAPSHOT</version>
+        <version>5.5.1</version>
     </parent>
     <artifactId>shardingsphere-plugin-features-sharding-cosid</artifactId>
     <name>${project.artifactId}</name>
-    
+
     <properties>
         <cosid.version>1.18.5</cosid.version>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.apache.shardingsphere</groupId>
@@ -52,7 +52,7 @@
             <version>${shardingsphere.version}</version>
         </dependency>
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
